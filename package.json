@@ -14,10 +14,19 @@
     "react-dom": "$react-dom"
   },
   "dependencies": {
+    "@sanity/icons": "^3.4.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.64.2",
+    "@tailwindcss/typography": "^0.5.15",
     "next": "15.0.2",
     "next-auth": "^5.0.0-beta.25",
+    "next-sanity": "^9.8.3-canary.1",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "react-icons": "^5.3.0",
+    "sanity": "^3.64.2",
+    "styled-components": "^6.1.13",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
