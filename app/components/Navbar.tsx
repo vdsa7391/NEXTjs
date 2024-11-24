@@ -16,7 +16,7 @@ const Navbar = async() => {
       <div><Link href="/"><img src="/logo.png" alt="" style={{width:"50%"}} /></Link></div>
        
        {session && session?.user ? (
-        <div className='nav-heading  gap-10 '>
+        <div className='nav-heading  '>
           <Link href="/create"><span >Create</span></Link>
           <Link href={`/user/${session?.id}`}><span>{session?.user?.name}</span></Link>
           <form action={async()=>{
